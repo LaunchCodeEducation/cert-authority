@@ -1,3 +1,8 @@
+# this file has been customized to support a deployed application
+
+# all original credit to: https://www.baeldung.com/x-509-authentication-in-spring-security
+# original Makefile: https://github.com/eugenp/tutorials/blob/71b7954aed845bae4786d002e57fbc7cbcce0564/spring-security-modules/spring-security-x509/keystore/Makefile
+
 # defaults, can be passed as args in any make call to override
 PASSWORD=launchcode
 KEYSTORE=keystore.jks
