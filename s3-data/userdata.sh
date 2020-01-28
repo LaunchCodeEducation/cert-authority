@@ -46,8 +46,8 @@ chmod 700 /opt/cert-authority
 cat << EOF > /etc/opt/cert-authority/cert-authority.config
 CERT_ALIAS=app
 SERVER_PORT=443
-KEYSTORE_PATH=/etc//opt/cert-authority/keystore/keystore.jks
-TRUSTSTORE_PATH=/etc//opt/cert-authority/keystore/truststore.jks
+KEYSTORE_PATH=/etc/opt/cert-authority/keystore/keystore.jks
+TRUSTSTORE_PATH=/etc/opt/cert-authority/keystore/truststore.jks
 EOF
 
 # Write systemd unit file
